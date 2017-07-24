@@ -1,0 +1,30 @@
+{
+  "name": "agspiel-nodejs-client-api",
+  "version": "1.0.0",
+  "description": "An API for ag-spiel.de",
+  "main": "lib/main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuxXx/agspiel-nodejs-client-api.git"
+  },
+  "keywords": [
+    "agspiel",
+    "aktien",
+    "luxxx"
+  ],
+  "author": "LuxXx",
+  "bugs": {
+    "url": "https://github.com/LuxXx/agspiel-nodejs-client-api/issues"
+  },
+  "homepage": "https://github.com/LuxXx/agspiel-nodejs-client-api#readme"
+}
