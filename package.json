@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LuxXx/agspiel-nodejs-client-api.git"
+    "url": "git+https://github.com/LuxXx/agspiel-nodejs-api.git"
   },
   "keywords": [
     "agspiel",
@@ -24,7 +24,7 @@
   ],
   "author": "LuxXx",
   "bugs": {
-    "url": "https://github.com/LuxXx/agspiel-nodejs-client-api/issues"
+    "url": "https://github.com/LuxXx/agspiel-nodejs-api/issues"
   },
-  "homepage": "https://github.com/LuxXx/agspiel-nodejs-client-api#readme"
+  "homepage": "https://github.com/LuxXx/agspiel-nodejs-api#readme"
 }
