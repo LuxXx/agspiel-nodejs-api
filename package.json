@@ -1,5 +1,5 @@
 {
-  "name": "agspiel-nodejs-client-api",
+  "name": "agspiel",
   "version": "1.0.0",
   "description": "An API for ag-spiel.de",
   "main": "lib/main.js",
