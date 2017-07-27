@@ -41,7 +41,7 @@ Die AG Spiel API ist eine Bibliothek von Funktionen, die sich rund um das Spiel 
 
 ## Erste Schritte
 Um auf die Daten des AG Spiels zuzugreifen, muss die API sich authorisieren. Das geschieht derzeit noch über Cookies.
-Die Cookies könnt ihr, solange ihr beim AG-Spiel eingeloggt seid, über euren Browser erfahren. Mit der `auth(phpsessid-cookie, agspiel-cookie)`-Funktion könnt ihr euch also "einloggen".
+Die Cookies könnt ihr, solange ihr beim AG-Spiel eingeloggt seid, über euren Browser erfahren (Bei Firefox STRG+Umschalt+Q und eine beliebige Anfrage anklicken. Danach seht ihr rechts die Cookies). Mit der `auth(phpsessid-cookie, agspiel-cookie)`-Funktion könnt ihr euch also "einloggen".
 ```js
 const agspiel = require('agspiel');
 agspiel.auth('PHPSESSID-cookie', 'agspiel-cookie');
