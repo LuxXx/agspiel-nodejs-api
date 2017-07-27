@@ -571,7 +571,7 @@ let ee = new EventEmitter();
 let bw = 0;
 let wkns;
 
-function work() {
+ee.on('work', () => {
   if (wkns.length === 0) {
     ee.emit('end');
     return;
@@ -580,20 +580,19 @@ function work() {
     console.log(p.ceo + ' (' + p.name + ' / ' + p.wkn + ') hat einen Buchwert von ' + currency(p.buchwert()) + '€');
     bw += p.buchwert();
   });
-}
+});
 
 let interval;
 retrieve.index(indexId).then(i => {
   wkns = i.mitglieder.map(m => m.wkn);
   indexName = i.name;
-  interval = setInterval(work, delay);
+  interval = setInterval(() => ee.emit('work'), delay);
 });
 
 ee.on('end', () => {
   clearInterval(interval);
   console.log(indexName + ' hat einen Gesamtbuchwert von ' + currency(bw) + '€');
 });
-
 ```
 Output:
 ```
