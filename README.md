@@ -554,7 +554,7 @@ retrieve.profile('Nordlicht').then(p => {
 gibt aus
 ```Nordlicht hat von seinen 289.560.000,00€ 168.560.000,00€ selber erwirtschaftet.```
 
-Achtung: Dieses Programm berücksichtigt keine indirekten KHs (KHs über Übernahmen) und auch nicht die Zeitpunkte der KHs.
+Achtung: Dieses Programm berücksichtigt keine indirekten KHs (KHs über Übernahmen) und auch nicht die Zeitpunkte der KMs.
 ___
 Folgendes Programm ermittelt den Buchwert eines Indexes:
 ```js
@@ -594,4 +594,23 @@ ee.on('end', () => {
   console.log(indexName + ' hat einen Gesamtbuchwert von ' + currency(bw) + '€');
 });
 
+```
+Output:
+```
+David5702 (Geldpresse AG / 166664) hat einen Buchwert von 1.399.900,00€
+xonxun (Bonsai Baum AG / 166936) hat einen Buchwert von 1.854.500,00€
+Hummel (Blue-Investment / 154295) hat einen Buchwert von 62.163.386,89€
+Timmy1800 (Logistik Elektroniks / 151282) hat einen Buchwert von 17.216.300,00€
+Sparschwein (Der Bestatter / 165530) hat einen Buchwert von 1.462.800,00€
+Knox1312 (Underground AG / 160450) hat einen Buchwert von 189.582.000,00€
+Kalle03 (Monster Eis AG / 164184) hat einen Buchwert von 7.852.000,00€
+Nordlicht (Bearish Holding AG / 155401) hat einen Buchwert von 311.840.000,00€
+DeMarco24 (Big Stone Investment / 153540) hat einen Buchwert von 15.662.745,00€
+LuxXx (Black Scholes Group / 166541) hat einen Buchwert von 2.055.000,00€
+Luchs (Lynx / 159463) hat einen Buchwert von 12.218.500,00€
+JohnArnold (Ishare / 161781) hat einen Buchwert von 121.408.000,00€
+Raphu (Waldhof Löwe / 164915) hat einen Buchwert von 3.700.000,00€
+TDaench (Monsterbier Ag / 158569) hat einen Buchwert von 8.854.500,00€
+Gewinner (Solarpark AG / 164021) hat einen Buchwert von 10.071.800,00€
+T.G.I.F. hat einen Gesamtbuchwert von 767.341.431,89€
 ```
