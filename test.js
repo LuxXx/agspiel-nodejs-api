@@ -1,4 +1,4 @@
-const agspiel = require('./lib/main.js');
+const agspiel = require('agspiel');
 const retrieve = agspiel.retrieve;
 
 retrieve.agliste().then(profile => {
