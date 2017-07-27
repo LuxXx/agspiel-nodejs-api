@@ -33,10 +33,10 @@ Die AG Spiel API ist eine Bibliothek von Funktionen, die sich rund um das Spiel 
 
 ## Ausprobieren ist immer gut!
 * NodeJS installieren
-* API herunterladen und entpacken
-* Per `npm install agspiel` Abhängigkeiten installieren
 * `index.js` erstellen. Ihr könnt euch an der test.js orientieren
-* Per `const agspiel = require('agspiel')` die API einbinden
+* Per `const agspiel = require('agspiel')` die API in der `index.js` einbinden
+* Konsole öffnen und in den Ordner der `index.js` navigieren
+* Per `npm install agspiel` Abhängigkeiten installieren
 * Per `node index.js` starten
 
 ## Erste Schritte
