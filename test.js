@@ -1,6 +1,6 @@
 const agspiel = require('agspiel');
 const retrieve = agspiel.retrieve;
 
-retrieve.agliste().then(profile => {
-  console.log(profile);
+retrieve.agliste().then(list => {
+  console.log(list);
 }).catch(console.log);
