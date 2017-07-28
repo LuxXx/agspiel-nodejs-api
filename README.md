@@ -30,6 +30,7 @@ Die AG Spiel API ist eine Bibliothek von Funktionen, die sich rund um das Spiel 
 * Chat API [0%]
 * Neue AGs auslesen [0%]
 * AGs in Liquidation, gesperrte AGs sowie Strafzahlungen auslesen [0%]
+* Messaging API [0%]
 
 ## Ausprobieren ist immer gut!
 * NodeJS installieren
