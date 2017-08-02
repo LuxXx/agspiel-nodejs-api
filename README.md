@@ -614,3 +614,22 @@ TDaench (Monsterbier Ag / 158569) hat einen Buchwert von 8.854.500,00€
 Gewinner (Solarpark AG / 164021) hat einen Buchwert von 10.071.800,00€
 T.G.I.F. hat einen Gesamtbuchwert von 767.341.431,89€
 ```
+___
+Wieviel Prozent von einer AG könnte man sofort kaufen?
+```js
+const agspiel = require('agspiel');
+const retrieve = agspiel.retrieve;
+
+retrieve.profile(118973).then(p => {
+  retrieve.orderbuch(p.wkn).then(o => {
+    let price = o.filter(e => e.type === 'SELL').map(e => e.volumen).reduce((a,b) => a + b);
+    let anzahl = o.filter(e => e.type === 'SELL').map(e => e.anzahl).reduce((a,b) => a + b)
+    console.log('Du kannst derzeit ' + agspiel.format.currency(100*anzahl/p.aktienanzahl) + '% von ' + p.name + ' für ' + agspiel.format.currency(price) + '€ kaufen.');
+  });
+});
+
+```
+Output:
+```
+Du kannst derzeit 47,77% von Phil Corporation AG für 304.699.129,36€ kaufen.
+```
