@@ -615,7 +615,7 @@ Gewinner (Solarpark AG / 164021) hat einen Buchwert von 10.071.800,00€
 T.G.I.F. hat einen Gesamtbuchwert von 767.341.431,89€
 ```
 ___
-Wieviel Prozent von einer AG könnte man sofort kaufen?
+Wieviel Prozent einer AG könnte man sofort kaufen?
 ```js
 const agspiel = require('agspiel');
 const retrieve = agspiel.retrieve;
