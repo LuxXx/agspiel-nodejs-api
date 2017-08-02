@@ -1,6 +1,6 @@
 {
   "name": "agspiel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An API for ag-spiel.de",
   "main": "lib/main.js",
   "directories": {
