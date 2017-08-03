@@ -12,6 +12,7 @@ Die AG Spiel API ist eine Bibliothek von Funktionen, die sich rund um das Spiel 
 
 Ich baue mithilfe der API Grafiken wie diese Heatmap:
 ![Anleihenhoch](http://tdbr.de/Anleihenhoch.PNG)
+Je blauer ein Feld, desto mehr Anleihen laufen in dieser Stunde aus.
 
 Oder diese Grafik:
 ![Indizes](http://tdbr.de/Indizes_small.png)
