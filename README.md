@@ -19,10 +19,10 @@ Oder diese Grafik:
 
 Oder einige Excel-Tabellen wie Orderbücher oder die AG Liste:
 
-* ![PDF AG Liste](http://tdbr.de/AGs.pdf)
-* ![XLSX AG Liste](http://tdbr.de/AGs.xlsx)
-* ![PDF Orderbuch](http://tdbr.de/Orderbuch.pdf)
-* ![XLSX Orderbuch](http://tdbr.de/Orderbuch.xlsx)
+* [PDF AG Liste](http://tdbr.de/AGs.pdf)
+* [XLSX AG Liste](http://tdbr.de/AGs.xlsx)
+* [PDF Orderbuch](http://tdbr.de/Orderbuch.pdf)
+* [XLSX Orderbuch](http://tdbr.de/Orderbuch.xlsx)
 
 ## Was kann die API?:
 * Profil auslesen [80%]
